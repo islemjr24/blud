@@ -226,10 +226,10 @@ window.addEventListener('scroll', () => {
       toggleBtn.addEventListener('click', () => {
         if (input.type === 'password') {
           input.type = 'text';
-          toggleBtn.innerHTML = '🙈';
+          toggleBtn.innerHTML = '🙈'; // pour designer
         } else {
           input.type = 'password';
-          toggleBtn.innerHTML = '👁️';
+          toggleBtn.innerHTML = '👁️';// pour designer
         }
       });
       
